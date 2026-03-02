@@ -6,7 +6,7 @@ import {defineConfig, loadEnv} from 'vite';
 export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   return {
-    base: env.VITE_BASE || 'https://github.com/gayung0000/portofolio.git', // Set this to '/repo-name/' if deploying to a subfolder
+    base: env.VITE_BASE || 'https://github.com/gayung0000/portofolio-gayung.git', // Set this to '/repo-name/' if deploying to a subfolder
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
