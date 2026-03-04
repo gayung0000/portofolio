@@ -155,7 +155,7 @@ const CERTIFICATES = [
     issuer: "Institut Teknologi dan Bisnis PalComTech",
     issuerUrl: "https://palcomtech.ac.id",
     year: "2026",
-    image: "public/b.inggris.jpg",
+    image: "b.inggris.jpg",
     verificationUrl: "https://palcomtech.ac.id/verify/12",
     desc: {
       en: "Participated in the English field in the PalComTech 2026 Vocational High School Olympiad Event.",
@@ -170,7 +170,7 @@ const CERTIFICATES = [
     issuer: "Institut Teknologi dan Bisnis PalComTech",
     issuerUrl: "https://palcomtech.ac.id",
     year: "2026",
-    image: "public/matematika.jpg",
+    image: "matematika.jpg",
     verificationUrl: "https://palcomtech.ac.id/verify/13",
     desc: {
       en: "Participated in the Mathematics field in the PalComTech 2026 Vocational High School Olympiad Event.",
@@ -186,7 +186,7 @@ const CERTIFICATES = [
     issuerUrl: "https://www.gamelab.id",
     year: "2025",
     score: "90",
-    image: "public/gamelab-polapikir.png",
+    image: "gamelab-polapikir.png",
     verificationUrl: "https://www.gamelab.id/certificate/verify/CT-4C-1",
     desc: {
       en: "Developing critical thinking mindset for professional development.",
@@ -202,7 +202,7 @@ const CERTIFICATES = [
     issuerUrl: "https://www.gamelab.id",
     year: "2025",
     score: "88",
-    image: "public/certificate gamelab kolaborasi.jpg",
+    image: "certificate gamelab kolaborasi.jpg",
     verificationUrl: "https://www.gamelab.id/certificate/verify/CL-4C-9",
     desc: {
       en: "Mastering teamwork and collaborative problem-solving.",
@@ -218,7 +218,7 @@ const CERTIFICATES = [
     issuerUrl: "https://www.gamelab.id",
     year: "2025",
     score: "88",
-    image: "public/certificate gamelab kreatif.jpg",
+    image: "certificate gamelab kreatif.jpg",
     verificationUrl: "https://www.gamelab.id/certificate/verify/CR-4C-10",
     desc: {
       en: "Enhancing creative thinking in technical environments.",
@@ -232,7 +232,7 @@ const CERTIFICATES = [
     },
     issuer: "Bupati Musi Banyuasin",
     year: "2025",
-    image: "public/echofashion.png",
+    image: "echofashion.png",
     desc: {
       en: "Participation in sustainable fashion training and development.",
       id: "Partisipasi dalam pelatihan dan pengembangan busana berkelanjutan."
@@ -246,7 +246,7 @@ const CERTIFICATES = [
     issuer: "SMKN 3 Sekayu",
     issuerUrl: "https://smkn3sekayu.sch.id",
     year: "2025",
-    image: "public/peringkat_1.png",
+    image: "peringkat_1.png",
     desc: {
       en: "Achieved Rank 1 in Software Engineering class.",
       id: "Meraih Peringkat 1 di kelas Rekayasa Perangkat Lunak."
@@ -261,7 +261,7 @@ const CERTIFICATES = [
     issuerUrl: "https://smkn3sekayu.sch.id",
     year: "2024",
     score: "85.62",
-    image: "public/peringkat_3.png",
+    image: "peringkat_3.png",
     desc: {
       en: "Achieved Rank 3 in Software Engineering class for the first semester of the 2024/2025 academic year.",
       id: "Meraih Peringkat 3 di kelas Rekayasa Perangkat Lunak untuk semester ganjil tahun ajaran 2024/2025."
@@ -274,7 +274,7 @@ const CERTIFICATES = [
     },
     issuer: "Saka Bhayangkara",
     year: "2025",
-    image: "public/SAR_AIR.png",
+    image: "SAR_AIR.png",
     desc: {
       en: "Intensive water search and rescue training.",
       id: "Pelatihan pencarian dan penyelamatan air yang intensif."
@@ -289,17 +289,17 @@ const ORGANIZATIONS = [
       en: "Regional Paskibraka 2025",
       id: "Paskibraka Kabupaten 2025"
     },
-    thumbnail: "public/pengukuhan.jpg",
+    thumbnail: "pengukuhan.jpg",
     images: [
       { 
-        url: "public/pelatihan.jpg", 
+        url: "pelatihan.jpg", 
         caption: {
           en: "Intensive discipline training during regional Paskibraka preparation.",
           id: "Latihan disiplin intensif selama persiapan Paskibraka kabupaten."
         }
       },
       { 
-        url: "public/pengukuhan.jpg", 
+        url: "pengukuhan.jpg", 
         caption: {
           en: "Official inauguration as a member of the regional flag hoisting team.",
           id: "Pelantikan resmi sebagai anggota tim pengibar bendera kabupaten."
@@ -313,10 +313,10 @@ const ORGANIZATIONS = [
       en: "Student Organization (OSIS)",
       id: "Organisasi Intra Sekolah (OSIS)"
     },
-    thumbnail: "public/plsntikanosis.jpeg",
+    thumbnail: "plsntikanosis.jpeg",
     images: [
       { 
-        url: "public/plsntikanosis.jpeg", 
+        url: "plsntikanosis.jpeg", 
         caption: {
           en: "Official Inauguration for the 2025/2026 period.",
           id: "Pelantikan Resmi periode tahun 2025/2026."
@@ -330,10 +330,10 @@ const ORGANIZATIONS = [
       en: "Scouts (Saka Bhayangkara)",
       id: "Pramuka (Saka Bhayangkara)"
     },
-    thumbnail: "public/pramuka1.jpeg",
+    thumbnail: "pramuka1.jpeg",
     images: [
       { 
-        url: "public/pramuka1.jpeg", 
+        url: "pramuka1.jpeg", 
         caption: {
           en: "Photo session after training and receiving the Water SAR certificate.",
           id: "Sesi pemotretan setelah pelatihan dan mendapatkan sertifikat SAR Air."
@@ -593,7 +593,7 @@ export default function App() {
                   and change the src to "/your-photo.jpg"
                 */}
                 <img 
-                  src="public/profile.jpeg" 
+                  src="profile.jpeg" 
                   alt="Gayung Profile" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"
