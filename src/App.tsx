@@ -306,7 +306,7 @@ const ORGANIZATIONS = [
         }
       },
             { 
-        url: "public/wasnus_gednus.jpg", 
+        url: "wasnus_gednus.jpg", 
         caption: {
           en: "the unity of Paskibraka of Musi Banyuasin Regency after the flag-raising ceremony for the 80th Anniversary of Indonesia’s Independence 🇮🇩 at Gedung Nusantara. With neat uniforms and a well-organized formation, this moment reflects discipline, unity, and the spirit of Wawasan Nusantara during the sacred August 17th commemoration.",
           id: "mengabadikan kebersamaan Paskibraka Kabupaten Musi Banyuasin setelah pengibaran bendera pada peringatan HUT ke-80 Kemerdekaan Republik Indonesia 🇮🇩 di Gedung Nusantara. Dengan seragam rapi dan formasi yang kompak, momen ini mencerminkan disiplin, persatuan, serta semangat Wawasan Nusantara dalam peringatan sakral 17 Agustus ."
