@@ -564,7 +564,7 @@ export default function App() {
             <div className="flex flex-wrap gap-4">
               <a 
                 href="public/CV_Gayung.pdf" 
-                download="CV_Gayung.pdf"
+                download="public/CV_Gayung.pdf"
                 className="px-8 py-4 bg-accent text-white rounded-xl font-semibold hover:bg-accent/90 transition-all flex items-center gap-2 group"
               >
                 {t.hero.downloadCV} <Download className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
